@@ -1,0 +1,182 @@
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.fontec {
+  width: 100;
+
+  height: 703px;
+  background-color: rgba(75, 76, 77, 0.103);
+  /* margin-left: -10px; */
+}
+header {
+  width: 100%;
+  height: 110px;
+  border-radius: 12px;
+  background-color: rgba(32, 32, 32, 0.616);
+
+  box-shadow: 10px 10px 20px#848485, -10px -10px 20px#000000f6;
+  border-radius: 15px;
+  width: 90vw;
+  margin: 1rem auto;
+  /* margin: 1rem auto; */
+  color: white;
+  text-align: center;
+}
+.multicolor-txt {
+  /* background: linear-gradient(90deg,rgba(255, 0, 0, 0.849),orange,yellow,green,rgb(28, 28, 245),violet,red,orange,yellow,green,rgb(39, 39, 238),violet); */
+  background: linear-gradient(
+    90deg,
+    rgb(28, 28, 245),
+    rgb(151, 12, 151),
+    violet,
+    rgb(39, 39, 238),
+    rgb(151, 12, 151),
+    violet
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  font-weight: bold;
+  font-weight: italic;
+  font-size: 1.5em;
+}
+
+#box2 {
+  box-shadow: 10px 10px 20px#848485, -10px -10px 20px#000000f6;
+  border-radius: 15px;
+  text-align: center;
+  width: 20em;
+  height: 171px;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgb(28, 28, 245),
+    rgb(151, 12, 151),
+    violet,
+    rgb(39, 39, 238),
+    rgb(151, 12, 151),
+    violet
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+.boxz {
+  margin-top: 2px;
+
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+#fit {
+  width: fit-content;
+  margin: 1rem auto;
+}
+#dscrd {
+  margin: 1rem auto;
+}
+#box3 {
+  margin-top: 10px;
+  box-shadow: 10px 10px 20px#848485, -10px -10px 20px#000000f6;
+  border-radius: 15px;
+  text-align: center;
+  width: 20em;
+  height: 171px;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgb(28, 28, 245),
+    rgb(151, 12, 151),
+    violet,
+    rgb(39, 39, 238),
+    rgb(151, 12, 151),
+    violet
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+/* p {
+  background-color: #848485;
+  text-align: center;
+  margin-top: -5px;
+} */
+#txt-main {
+  text-align: center;
+  margin-top: 30px;
+  height: 171px;
+}
+#linkdisc {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgb(28, 28, 245),
+    rgb(151, 12, 151),
+    violet,
+    rgb(39, 39, 238),
+    rgb(151, 12, 151),
+    violet
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+span {
+  color: none;
+  font-size: 30px;
+}
+#sz1 {
+  font-size: 26px;
+}
+#txtcol {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgb(28, 28, 245),
+    rgb(151, 12, 151),
+    violet,
+    rgb(39, 39, 238),
+    rgb(151, 12, 151),
+    violet
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.txt-zn {
+  width: 50vh;
+  text-align: center;
+  margin: 1rem auto;
+  line-height: 20px;
+}
+#sound1 {
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  text-decoration: none;
+  color: aliceblue;
+}
+.btn.active {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(28, 28, 245),
+    rgb(151, 12, 151),
+    violet,
+    rgb(39, 39, 238),
+    rgb(151, 12, 151),
+    violet
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.loc {
+  text-align: center;
+  margin-top: -10px;
+}
